@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Lista de Tareas</title>
+</head>
+<body>
+    <h1>Lista de Tareas</h1>
+    <h2 style="text-align: center;">Pendientes</h2>
+    <button onclick="window.location.href='add.html'">Agregar Tarea</button>
+    <div id="contenedorTareas"></div>
+    <div id="resumenTareas">
+        <p>Pendientes: <span id="totalPorHacer">0</span></p>
+        <p>Hechas: <span id="tareasCompletadas">0</span></p>
+    </div>
+    <script src="utils.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
+
+
